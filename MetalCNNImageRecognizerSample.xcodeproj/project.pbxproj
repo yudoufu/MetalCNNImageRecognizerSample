@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFAB3D621E75460F008376BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB3D611E75460F008376BD /* AppDelegate.swift */; };
+		DFAB3D641E75460F008376BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAB3D631E75460F008376BD /* ViewController.swift */; };
+		DFAB3D671E75460F008376BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFAB3D651E75460F008376BD /* Main.storyboard */; };
+		DFAB3D691E75460F008376BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFAB3D681E75460F008376BD /* Assets.xcassets */; };
+		DFAB3D6C1E75460F008376BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFAB3D6A1E75460F008376BD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DFAB3D5E1E75460F008376BD /* MetalCNNImageRecognizerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MetalCNNImageRecognizerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFAB3D611E75460F008376BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFAB3D631E75460F008376BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DFAB3D661E75460F008376BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFAB3D681E75460F008376BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFAB3D6B1E75460F008376BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFAB3D6D1E75460F008376BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFAB3D5B1E75460F008376BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFAB3D551E75460F008376BD = {
+			isa = PBXGroup;
+			children = (
+				DFAB3D601E75460F008376BD /* MetalCNNImageRecognizerSample */,
+				DFAB3D5F1E75460F008376BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFAB3D5F1E75460F008376BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFAB3D5E1E75460F008376BD /* MetalCNNImageRecognizerSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFAB3D601E75460F008376BD /* MetalCNNImageRecognizerSample */ = {
+			isa = PBXGroup;
+			children = (
+				DFAB3D611E75460F008376BD /* AppDelegate.swift */,
+				DFAB3D631E75460F008376BD /* ViewController.swift */,
+				DFAB3D651E75460F008376BD /* Main.storyboard */,
+				DFAB3D681E75460F008376BD /* Assets.xcassets */,
+				DFAB3D6A1E75460F008376BD /* LaunchScreen.storyboard */,
+				DFAB3D6D1E75460F008376BD /* Info.plist */,
+			);
+			path = MetalCNNImageRecognizerSample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFAB3D5D1E75460F008376BD /* MetalCNNImageRecognizerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFAB3D701E75460F008376BD /* Build configuration list for PBXNativeTarget "MetalCNNImageRecognizerSample" */;
+			buildPhases = (
+				DFAB3D5A1E75460F008376BD /* Sources */,
+				DFAB3D5B1E75460F008376BD /* Frameworks */,
+				DFAB3D5C1E75460F008376BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MetalCNNImageRecognizerSample;
+			productName = MetalCNNImageRecognizerSample;
+			productReference = DFAB3D5E1E75460F008376BD /* MetalCNNImageRecognizerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFAB3D561E75460F008376BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Personal;
+				TargetAttributes = {
+					DFAB3D5D1E75460F008376BD = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 868F834Y3N;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DFAB3D591E75460F008376BD /* Build configuration list for PBXProject "MetalCNNImageRecognizerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFAB3D551E75460F008376BD;
+			productRefGroup = DFAB3D5F1E75460F008376BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFAB3D5D1E75460F008376BD /* MetalCNNImageRecognizerSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFAB3D5C1E75460F008376BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAB3D6C1E75460F008376BD /* LaunchScreen.storyboard in Resources */,
+				DFAB3D691E75460F008376BD /* Assets.xcassets in Resources */,
+				DFAB3D671E75460F008376BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFAB3D5A1E75460F008376BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAB3D641E75460F008376BD /* ViewController.swift in Sources */,
+				DFAB3D621E75460F008376BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DFAB3D651E75460F008376BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFAB3D661E75460F008376BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFAB3D6A1E75460F008376BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFAB3D6B1E75460F008376BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFAB3D6E1E75460F008376BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFAB3D6F1E75460F008376BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFAB3D711E75460F008376BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 868F834Y3N;
+				INFOPLIST_FILE = MetalCNNImageRecognizerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yudoufu.ios.dev.MetalCNNImageRecognizerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DFAB3D721E75460F008376BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 868F834Y3N;
+				INFOPLIST_FILE = MetalCNNImageRecognizerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yudoufu.ios.dev.MetalCNNImageRecognizerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFAB3D591E75460F008376BD /* Build configuration list for PBXProject "MetalCNNImageRecognizerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAB3D6E1E75460F008376BD /* Debug */,
+				DFAB3D6F1E75460F008376BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFAB3D701E75460F008376BD /* Build configuration list for PBXNativeTarget "MetalCNNImageRecognizerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFAB3D711E75460F008376BD /* Debug */,
+				DFAB3D721E75460F008376BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFAB3D561E75460F008376BD /* Project object */;
+}
